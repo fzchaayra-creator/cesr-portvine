@@ -47,3 +47,24 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+# Fichiers de données lourds spécifiques au projet CESR
+*.RData
+*.rda
+*.RDS
+
+# PDF et images générés
+*.pdf
+*.png
+*.jpg
+
+# Fichiers de checkpoint temporaires
+ckpt_*.RData
+mc_v*_ckpt.RData
+mc_size_*_ckpt.RData
+*_backup*.tex
+
+# Fichiers R temporaires
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user
